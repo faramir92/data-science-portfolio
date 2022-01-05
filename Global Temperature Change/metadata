@@ -1,0 +1,37 @@
+NOAA stands for National Oceanic and Atmospheric Administration, formerly known as NCDC or National Climatic Data Center. NOAA is an agency of the United States government, under the Department of Commerce, that has the mission to understand and predict changes in climate, weather, oceans, and coasts, to share that knowledge and information about climate, and to conserve and manage coastal and marine ecosystems and resources. 
+
+The agency has records of temperature anomaly* since 1880 until today. The data used in this analysis has one data point to each month and its correspondent temperature anomaly. The complete data set can be downloaded at https://www.ncdc.noaa.gov/cag/time-series/global 
+
+* What is a temperature anomaly?
+The term temperature anomaly means a departure from a reference value or long-term average. A positive  anomaly indicates that the observed temperature was warmer than the reference value, while a negative  anomaly indicates that the observed temperature was cooler than the reference value. 
+More details can be found at https://www.ncdc.noaa.gov/monitoring-references/faq/anomalies.php
+
+We are data scientists working for a NGO that want to prove, based on the provided data, if the temperature on the earth is increasing over time or not. In other words, our goal is to prove whether the so called Global Warming exists, as the scientists claim. 
+
+Our analysis should follow these steps:
+
+1. Perform an exploratory data analysis on the received data.
+
+a) Print the first and last 10 rows of the data set.
+b) Investigate the data types.
+c) Discover the number of records, mean, standard deviation, quartiles, min and max values.
+d) Plot the dataset to investigate how the data looks like.
+e) Plot a histogram to investigate how the data is distributed.
+
+2. Analyse and convert the data types to the correct format to perform a time-series analysis.
+
+3. Define the period to be used in the analysis. The rule defined is:
+a) Compute the mean by year.
+b) Look for the most recent year that has the mean negative.
+c) Period of analysis should be from the next January after the last negative mean year until today. 
+d) How many months are included in your analysis?
+e) Plot the data set of the period
+
+4. Is your series stationary?
+
+5. Decompose your series into three pieces:
+a) Seasonality.
+b) Trend.
+c) Residuals components.
+
+6. Based on the findings and pieces of evidence extracted from the data you received, what is your conclusion about global warming?
