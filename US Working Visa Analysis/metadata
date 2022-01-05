@@ -1,1 +1,15 @@
+We are Data Scientists conducting a research of how US companies hire and apply for working visa for foreign workers. Our objective is to find interesting patterns in given data. 
 
+We have been supplied with three real datasets:
+ - The result of 2016 applications for H1B visas;
+ - NAICS codes;
+ - US States;
+
+Our analysis must be able to address the following questions:
+
+1. What are the top 10 occupations for H1B visas with certified status?
+2. Which company hires more data scientists? 
+3. What is the average salary for data scientists? How it is compared to the mean of applications?
+4. Which state has the higher deny proportionally to application. And proportionally to the population?
+5. What industries are in the top 5 percentile of applications?
+6. Does the month of the application play any role in to denied process? What about decision dates?
