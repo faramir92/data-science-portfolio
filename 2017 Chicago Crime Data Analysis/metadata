@@ -1,0 +1,17 @@
+The City of Chicago makes available through its Data Portal (data.cityofchicago.org) access to government data. The site hosts over 200 datasets presented in easy-to-use formats about City departments, services, facilities and performance.
+
+The dataset used in this analysis contains crime reports from 2001 to present date but filtered to consider just occurrences of January and February of 2017.
+
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data
+
+Disclaimer: This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified.
+
+We are data scientists helping the City of Chicago makes sense of the data collected in order to find important patterns about how to improve law enforcement actions to prevent crime.
+
+Our analysis must be able to address the following requests:
+
+1. What are the top 12 most common crimes of the period?
+2. What are the crime types that have median above 50 crimes/day?
+3. For each crime type identified in the last question, use the latitude and longitude into a KDE plot, to analyse its spread.
+4. For each crime type plotted into KDE, discover the mean of the coordinates (latitude and longitude).
+5. Go to google maps, plot the coordinates and investigate if the distances are close or not, what could indicate that the area should have more investment in public security.
